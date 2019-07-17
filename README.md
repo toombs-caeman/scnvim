@@ -1,6 +1,6 @@
 my self-contained nvim configuration.
 
-uses [git subrepo]() to include plugins
+uses [git subrepo](https://github.com/ingydotnet/git-subrepo) and vim8's pack to include plugins
 
 # Try it
 ``` bash
@@ -10,13 +10,13 @@ cd scnvim
 ```
 
 #TODO
+* nvr https://github.com/mhinz/neovim-remote
+    * configure as git editor
+
+
 * have nvim autoupdate nvim.appimage and pull the correct architecture
-* break vim into a self contained subrepo
-* theme with this: https://stackoverflow.com/questions/37400174/can-i-set-the-vim-colorscheme-from-the-command-line
-    - this will leave the self contained theme intact when ricer isn't available
 configure plugins:
 * Plug looks pretty easy to use
-* nvr https://github.com/mhinz/neovim-remote
     * https://hkupty.github.io/2016/Ditching-TMUX/
     * setup terminal escapes
 * netwr
