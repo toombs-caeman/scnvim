@@ -7,6 +7,7 @@ let s:portable = expand('<sfile>:p:h')
 
 " Isolate the runtime to the current directory
 let &runtimepath = s:portable
+let &packpath = s:portable
 
 if &compatible
   set nocompatible
