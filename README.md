@@ -11,20 +11,15 @@ cd scnvim
 
 #TODO
 * nvr https://github.com/mhinz/neovim-remote
-    * configure as git editor
 
 * have nvim autoupdate nvim.appimage and pull the correct architecture
 configure plugins:
 * netwr
-    - https://shapeshed.com/vim-netrw/#netrw-the-unloved-directory-browser
-    - can be used to browse over ssh/mosh, inspect directories
+    - https://shapeshed.com/vim-netrw/
     - https://kgrz.io/editing-files-over-network.html
 * more at https://github.com/tpope/
-    * commentary https://github.com/tpope/vim-commentary
-    * git integration (vimagit/vim-fugitive)
+    * tcomment
 * more at https://github.com/akrawchyk/awesome-vim
-    * vim-indent-guides
-    * vim-lastplace
 
 other:
 * syntax highlighting for

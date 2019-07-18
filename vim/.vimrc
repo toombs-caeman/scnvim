@@ -204,4 +204,5 @@ let g:netrw_winsize=25
 let g:netrw_liststyle=4
 let g:netrw_altv=1
 
+let g:indent_guides_enable_on_vim_startup = 1
 "NETRW" }}}
